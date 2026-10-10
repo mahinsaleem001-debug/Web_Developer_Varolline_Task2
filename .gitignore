@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Secrets - never commit these
+.env
+.env.*
+!.env.example
+
+# Local data (user accounts and password hashes)
+data/*.json
+data/*.tmp
+
+# Logs and OS files
+*.log
+.DS_Store
+Thumbs.db
